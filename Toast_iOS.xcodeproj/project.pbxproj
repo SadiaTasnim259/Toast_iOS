@@ -13,6 +13,7 @@
 		0406886A2A7B5C01007257E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040688682A7B5C01007257E2 /* Main.storyboard */; };
 		0406886C2A7B5C03007257E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0406886B2A7B5C03007257E2 /* Assets.xcassets */; };
 		0406886F2A7B5C03007257E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0406886D2A7B5C03007257E2 /* LaunchScreen.storyboard */; };
+		040688772A7B627D007257E2 /*  UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040688762A7B627D007257E2 /*  UIViewController+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0406886B2A7B5C03007257E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0406886E2A7B5C03007257E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040688702A7B5C03007257E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040688762A7B627D007257E2 /*  UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " UIViewController+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				040688622A7B5C01007257E2 /* AppDelegate.swift */,
 				040688642A7B5C01007257E2 /* SceneDelegate.swift */,
+				040688762A7B627D007257E2 /*  UIViewController+Ext.swift */,
 				040688662A7B5C01007257E2 /* ViewController.swift */,
 				040688682A7B5C01007257E2 /* Main.storyboard */,
 				0406886B2A7B5C03007257E2 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 				040688672A7B5C01007257E2 /* ViewController.swift in Sources */,
 				040688632A7B5C01007257E2 /* AppDelegate.swift in Sources */,
 				040688652A7B5C01007257E2 /* SceneDelegate.swift in Sources */,
+				040688772A7B627D007257E2 /*  UIViewController+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,9 +306,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sadia.Toast-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,9 +337,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sadia.Toast-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
